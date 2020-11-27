@@ -8,4 +8,4 @@ commit:
 	git add -A 
 	@echo "please type in commit comment:";\
 	read comment;\
-	git commit -m "$$comment";\
+	git commit -m"$$comment";\
