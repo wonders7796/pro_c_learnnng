@@ -12,3 +12,6 @@ commit:
 
 push:
 	git push origin $(BRANCH)
+
+reset:
+	git reset --soft HEAD^
