@@ -9,3 +9,6 @@ commit:
 	@echo "please type in commit comment:";\
 	read comment;\
 	git commit -m"$$comment";\
+
+push:
+	git push origin $(BRANCH)
