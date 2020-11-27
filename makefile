@@ -4,7 +4,7 @@ BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 CUR_DIR := $(shell cd)
 
 commit:
-	git pull orgin $(BRANCH)
+	git pull origin $(BRANCH)
 	git add -A 
 	@echo "please type in commit comment:";\
 	read comment;\
